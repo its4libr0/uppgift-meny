@@ -24,3 +24,59 @@ li a:hover {
 
 ul {position: fixed; top: 0; width: 100%;}
 
+@media screen and (min-width: 420px) 
+{
+  body {
+
+background: purple; 
+
+}
+  h1 {
+    
+  font-size: small;
+  }
+  
+  ul {
+    
+  font-size: small;
+  }
+
+}
+  @media screen and (min-width: 796px)
+  {
+    body {
+
+background: red; 
+
+}
+  h1 {
+    
+  font-size: small;
+  }
+  
+  ul {
+   
+  font-size: small;
+  }
+ 
+    
+}   
+ @media screen and (min-width: 1020px)
+     {
+    body {
+
+background: green; 
+      max-width: 600px;
+
+}
+  h1 {
+  font-size: medium;
+  }
+  
+  ul {
+  font-size: medium;
+  }
+    
+    
+} 
+
